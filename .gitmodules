@@ -4,7 +4,6 @@
 	branch = dev
 [submodule "LoopKit"]
 	path = LoopKit
-	url = https://github.com/LoopKit/LoopKit.git
 	url = https://github.com/dm61/LoopKit.git
 	branch = nonlinear-carb-model
 [submodule "CGMBLEKit"]
