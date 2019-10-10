@@ -1,7 +1,7 @@
 [submodule "Loop"]
 	path = Loop
-	url = https://github.com/LoopKit/Loop.git
-	branch = dev
+	url = https://github.com/dm61/Loop.git
+	branch = integral-retrospective-correction
 [submodule "LoopKit"]
 	path = LoopKit
 	url = https://github.com/dm61/LoopKit.git
