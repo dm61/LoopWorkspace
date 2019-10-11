@@ -2,7 +2,6 @@
 	path = Loop
 	url = https://github.com/dm61/Loop.git
 	branch = integral-retrospective-correction
-	url = https://github.com/Loopkit/Loop.git
 [submodule "LoopKit"]
 	path = LoopKit
 	url = https://github.com/dm61/LoopKit.git
