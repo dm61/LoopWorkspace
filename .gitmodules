@@ -4,8 +4,8 @@
 	branch = irc-pe-wip
 [submodule "LoopKit"]
 	path = LoopKit
-	url = https://github.com/dm61/LoopKit.git
-	branch = nonlinear-carb-model
+	url = https://github.com/LoopKit/LoopKit.git
+	branch = carb-model-refactor-global-settings
 [submodule "CGMBLEKit"]
 	path = CGMBLEKit
 	url = https://github.com/LoopKit/CGMBLEKit.git
