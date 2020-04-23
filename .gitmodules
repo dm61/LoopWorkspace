@@ -1,11 +1,11 @@
 [submodule "Loop"]
 	path = Loop
 	url = https://github.com/dm61/Loop.git
-	branch = irc-pe-ab-sc-wip
+	branch = sim-irc-pe-ab-sc-wip
 [submodule "LoopKit"]
 	path = LoopKit
-	url = https://github.com/LoopKit/LoopKit.git
-	branch = dev
+	url = https://github.com/dm61/LoopKit.git
+	branch = sim-dev
 [submodule "CGMBLEKit"]
 	path = CGMBLEKit
 	url = https://github.com/LoopKit/CGMBLEKit.git
