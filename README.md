@@ -10,10 +10,10 @@ The glucose-response model is code-customizable in `Loop/Loop/Models/MockHumanMo
 
 The Loop simulator may be used to quickly gain insights into how Loop operates or responds in certain scenarios, and to peform basic checks of correctness and effectiveness of various existing or in-development features, especially Loop models and algorithms. 
 
-The simulator has significant limitations:   
+**The simulator currently has significant limitations:**  
 * There is no user interface for the simulator: all settings or model changes require code customization
 * There is no way to pause or restart simulation
-* There is no resetting mechanism: any settings or model changes require recompiling and reinstalling Loop on a *fresh* iPhone simulator (in the Simulator Hardware menu, Erase All Content and Settings brings the iPhone simulator to a fresh clean state)
+* There is no resetting mechanism: any settings or model changes require recompiling and reinstalling Loop on a *fresh* iPhone simulator (in the Simulator Hardware menu, Erase All Content and Settings brings the iPhone simulator to a fresh state)
 * The `MockHumanModel` is currently just a quick hack; the model could be substantially improved in many ways
 * There are no assesment tools to evaluate or compare different Loop settings, models or algorithm features
 * Having an option to *not* update the Loop screens during simulation would potentially allow substantially faster simulations
