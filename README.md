@@ -1,22 +1,22 @@
 # Loop Simulator Running on an iPhone Simulator
 
-This Loop workspace points to Loop and LoopKit branches customized to allow non-real-time simulation of Loop on an iPhone simulator. The simulator Loop does not work on real iPhones and installation on a real device should never be attempted. The simulator runs real Loop code but the simulation is significantly faster, is based on code-customizable settings, and is based on code-customizable model-based glucose data.  
+This Loop workspace points to Loop and LoopKit branches customized to allow non-real-time simulation of Loop on an iPhone simulator. *The simulator Loop does not work on real iPhones and installation on a real device should never be attempted.* The simulator runs real Loop code but the simulation is significantly faster, is based on code-customizable settings and code-customizable model-based glucose responses.
 
-The simulation time step is set to 0.2 seconds representing 1 min in real time. The sample time for glucose data coming from a mock CGM and for dosing through a mock pump is 5 * (simulation time step) = 1 second. This corresponds to 60/0.2 = 300x faster simulation compared to standard real-time Loop operation. 
+The simulation time step is set to 0.2 seconds representing 1 min of real time. The sample time for glucose data coming from a mock CGM and for dosing through a mock pump is 5 * (simulation time step) = 1 second. This corresponds to 60/0.2 = 300x faster simulation compared to standard real-time Loop operation. 
 
-The user settings are code-customizable in Loop/Loop/Models/SimulationSettings.swift
+The user settings are code-customizable in `Loop/Loop/Models/SimulationSettings.swift`
 
-The glucose-response model is code-customizable in Loop/Loop/Models/MockHumanModel.swift
+The glucose-response model is code-customizable in `Loop/Loop/Models/MockHumanModel.swift`
 
-The Loop simulator may be used to quickly gain insights into how Loop responds in certain scenarios, and to peform basic checks of correctness and effectiveness of various existing or in-development features, especially as related to models and algorithms. 
+The Loop simulator may be used to quickly gain insights into how Loop operates or responds in certain scenarios, and to peform basic checks of correctness and effectiveness of various existing or in-development features, especially Loop models and algorithms. 
 
-There are significant limitations:   
-* There is no user interface: all settings or model changes are based on code customization
+The simulator has significant limitations:   
+* There is no user interface: all settings or model changes require code customization
 * There is no way to pause or restart simulation
-* There is no resetting mechanism: any settings or model changes require recompiling and reinstalling on a clean iPhone simulator
-* The MockHumanModel is currently just a quick hack; the model could be substantially improved in many ways
-* There are no assesment tools to evaluate or compare different settings or algorithm options
-* The code implementation could be substantially improved in many ways
+* There is no resetting mechanism: any settings or model changes require recompiling and reinstalling Loop on a *fresh* iPhone simulator (in the Simulator Hardware menu, Erase All Content and Settings brings the iPhone simulator to a fresh clean state)
+* The `MockHumanModel` is currently just a quick hack; the model could be substantially improved in many ways
+* There are no assesment tools to evaluate or compare different Loop settings, models or algorithm features
+* Overall code implementation could be substantially improved in many ways
 
 # Workspace directions are the same as for the standard LoopWorkspace 
 
